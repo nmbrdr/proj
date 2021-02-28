@@ -1,0 +1,562 @@
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+    
+}
+
+/* YAHA SE HAMARA MAIN LANDING PAGE HAI */
+.mainPage{
+    background:rgba(0, 0, 0,0.4) url(../img/main-back.jpg);
+    background-blend-mode:darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height: 98vh;
+}
+
+/* YAHA LANDING PAGE K ANDR KA PARAGRPAH HAI */
+.mainPage p{
+    color: wheat;
+    text-align: center;
+    margin-top: 280px;
+    font-size: 55px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    background: url(/public/images/me.jfif);
+}
+
+/* yaha se navbar puura hai */
+
+.navigate{
+    display: grid;
+    grid-template-columns: 255px auto;
+    width: 98vw;
+    color: blanchedalmond;
+    /* border: 3px solid rgb(190, 52, 52); */
+    
+}
+
+/* logo sidhi vinayak */
+.logo{
+    /* border: 2px solid gold; */
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family:'Ubuntu', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 900;
+    cursor: pointer;
+    color: blanchedalmond;
+
+}
+
+/* navigatio bar k links */
+.links{
+    /* border: 2px solid blue; */
+    margin-left:auto;
+    display: flex;
+    /* margin-left: auto; */
+}
+
+
+.links li{
+    padding-top: 10px;
+    margin-right: 80px;
+    /* border: 2px dotted darkred; */
+    width: auto;
+    list-style: none;
+    margin-left: 55px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: blanchedalmond;
+
+    
+}
+
+.links li a{
+    color:blanchedalmond;
+
+
+}
+
+
+/* HOVERING OF LOGO AND NAVIGATION LINKS */
+.logo:hover{
+    color:whitesmoke;
+    
+}
+
+
+.links li a:hover{
+    list-style: none;
+    text-decoration: none;
+    color:whitesmoke;
+
+}
+
+
+
+
+
+
+/* YAHA ABOUT BRIEF WLA SECTION */
+.aboutBrief{
+    height: 95vh;
+    color: rgb(226, 211, 184);
+
+    /* border: 3px solid forestgreen; */
+    background-blend-mode: darken;
+    background: rgb(32, 25, 25,0.9);
+    display: grid;
+    grid-template-columns: 25% 70%;    
+    grid-column-gap: 10px;
+    
+}
+
+/* yaha about brief ka logo left side wala */
+.logoBrief{
+    /* border: 3px solid rgb(190, 41, 41); */
+    
+    
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    
+}
+
+/* about brief mei jo logo hai uski positioning */
+.logoBrief h3{
+    /* border: 5px dotted peru; */
+    display: block;
+    position: absolute;
+    transform: translate(35%, 290%);
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 900;
+    margin-top: 155px;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+/* yaha about brief ka full paragraph section right side ka */
+.paraBrief{
+    /* border: 3px solid rgb(190, 41, 41); */
+    /* width: 950px; */
+    grid-column: 2/3;
+
+}
+
+/* yaha about brief k dono parragraph ki common cheeze */
+.DonoPara{
+    /* border: 3px solid rgb(10, 54, 39); */
+    
+}
+
+/* first para in about brief right side */
+#firstPara{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 85px;
+}
+
+/* second para in about brief right side */
+#secondPara{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 55px;
+    line-height: 45px;
+}
+
+#secondPara span{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+/* read more wala paragraph */
+#but{
+    /* border: 3px solid crimson; */
+    margin-top: 5px;
+    font-size: 25px;
+    font-family:'Ubuntu', sans-serif;
+    text-transform: capitalize;
+    width: 155px;
+    cursor: pointer;
+    
+}
+
+#but a{
+    color: blanchedalmond;
+    cursor: pointer;
+
+}
+ 
+#but a:hover{
+    color: brown;
+    text-decoration: none;
+
+}
+
+
+
+
+#but:hover{
+    color:whitesmoke;
+}
+
+/* main about ka page */
+
+.aboutMain{
+    background: rgba(192, 166, 166, 0.9);
+    max-width:100vw;
+    height: 100vh;
+    
+    
+}
+
+/* main heading on top of about page */
+
+.aboutMain h2{
+    text-align: center;
+    /* border: 2px solid slateblue; */
+    font-size: 45px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding-top: 25px;
+    margin-bottom: 15px;
+    text-shadow: 5px 5px grey;
+}
+
+/* main headin in about page  k neeche ki chhoti si line */
+#one{
+    /* border: 2px solid salmon; */
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+/* dono boxes ki grid */
+
+.aboutDetails{
+    display: grid;
+    grid-template-columns: 45% 35%;
+    /* border: 3px solid crimson; */
+    justify-content: space-around;
+    height: 65%;
+    margin-top: 55px;
+  
+}
+
+.boxesTwo{
+    /* border: 2px solid #b8860b; */
+    
+}
+
+/* about page k andr left side ka div */
+#two{
+    margin-left: 10px;
+}
+
+/* about page k andr right side ka div */
+
+#three{
+    margin-right: 15px;
+    background: rgba(0, 0, 0,0.1) url(../img/neo.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+/* about page mei left box k andr ki heading */
+#heading3{
+    /* border: 2px dotted coral; */
+    font-size: 45px;
+    text-transform: capitalize;
+    font-family:'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+}
+
+/* left div k andr ka frst paragrpgh */
+
+#para3{
+    /* border: 2px solid blueviolet; */
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+/* left div k andr ka scnd paragrpgh */
+
+#para4{
+    /* border: 2px solid blueviolet; */
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+
+/* yaha se description ka section */
+
+.description{
+    max-width: 100vw;
+    height: 500px;
+    background-color: rgb(65, 158, 127,0.9);
+    /* border: 2px solid darkviolet; */
+}
+
+/* yaha se dscrption wli heading */
+
+.description h4{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    /* border: 2px solid firebrick; */
+    text-transform: capitalize;
+    font-size: 35px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-weight: 800;
+    text-shadow: 5px 5px grey;
+
+}
+
+/* dscrptn wle paragrph */
+
+.description p{
+    /* border: 2px solid chartreuse; */
+    margin: 15px;
+}
+
+#point1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#point2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#point3{
+    font-size: 20px;
+    font-weight: 600;
+    font-style:italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* yaha se staff ka section shru */
+.TeacherAbout{
+    background: rgb(139, 174, 238);
+    max-width: 100vw;
+    /* border:4px solid chocolate; */
+    text-align: center;
+    height: 800px;
+    
+
+}
+
+/* yaha sri grids hai teachers ki */
+.staff{
+    display: grid;
+    grid-template-columns: 22% 22% 22%;
+    grid-template-rows: 330px 330px;
+    grid-gap: 15px;
+    justify-content: space-around;
+}
+
+/* our teachr wli heading hai staff grid se uppr */
+#headingTeach{
+    text-transform: capitalize;
+    text-shadow: 5px 5px grey;
+    font-size: 35px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    padding-top: 25px;
+}
+
+/* yaha se teachers wle cards hai */
+.teachers{
+    border: 2px solid rgb(204, 126, 126);
+    margin-top: 25px;
+    box-shadow: 5px 4px gray;
+    /* position: relative; */
+}
+
+.teachers:hover{
+    box-shadow: 15px 10px gray;
+    /* position: absolute; */
+    filter: drop-shadow(1px 1px white);
+    
+}
+
+
+/* ye 6 cards ki pic ka div hai */
+.pic{
+    /* border: 2px dotted rgb(61, 46, 26); */
+    height: 75%;
+}
+
+/* yaha se sri alg  alg picture hai */
+#pic1{
+    background: url(../img/papa.jfif);
+    background-size: 100% 110%;
+    
+}
+
+#pic2{
+    background: url(../img/mummy.jfif);
+    background-size: cover;
+    background-position-y: -45px;
+
+}
+
+#pic3{
+    background: url(../img/sonam.jfif);
+    background-size: cover;
+    background-position-y: -15px;
+}
+
+#pic4{
+    background: url(../img/divyansh.jfif);
+    background-size:cover;
+    background-position-y: -17px;
+
+}
+
+#pic5{
+    background: url(../img/me.jfif);
+    background-size: cover;
+    background-position-y: -53px;
+}
+
+#pic6{
+    background: url(../img/srthak.jfif);
+    background-size: cover;
+    background-position-y: -93px;
+    background-position-x: -3px;
+}
+
+.namePic{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.molar{
+    height: 50vh;
+    /* border: 5px solid darkblue; */
+    
+    background-size: cover;
+}
+
+/* contact page start */
+
+.contctPage{
+    /* border: 5px solid black; */
+    height: 500px;
+    text-align: center;
+    
+}
+
+.con{
+    /* border: 5px solid black; */
+    height: 700px;
+    /* text-align: center; */
+    
+}
+
+.con h2{
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 800;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.rgstr-hdng{
+    /* border: 3px solid black; */
+    width: 55%;
+    height: 65vh;
+    padding-top: 25px;
+    margin: auto;
+    margin-top: 35px;
+    background-color:rgb(189, 180, 180,0.6);
+   
+}
+
+#name{
+    /* border: 1px solid gray; */
+    margin-left: 15px;
+}
+
+#namee{
+    margin-left: 2px;
+    width: 250px;
+}
+
+#maild{
+    margin-left: 15px;
+}
+
+#maildd{
+    margin-left: 2px;
+    width: 480px;
+}
+#Nmbr{
+    margin-left: 15px;
+
+
+}
+#Nmbrr{
+    margin-left: 2px;
+    width: 411px;
+}
+
+#suggestion{
+    margin-left: 15px;
+
+}
+
+#suggestionn{
+    margin-left: 15px;
+    
+}
+
+#submit{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 85px;
+}
